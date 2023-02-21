@@ -14,11 +14,7 @@
 # 4 8 12 16 20 24
 # 5 10 15 20 25 30
 # 6 12 18 24 30 36 |
-#rows = int(input('Введите количество строк:'))
-#columns = int(input('Введите количество столбцов:'))
 
-# def search_element(rows = 6,columns):
-#     table = lambda a,b: rows * columns
     
 def  print_operation_table(operation,rows = 4,columns = 4):
     if rows < 2 or columns < 2:
